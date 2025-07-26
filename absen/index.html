@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Absensi Karyawan Salon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="logo-fixed">
+    <img src="foto1.jpg" alt="Logo Salon" />
+  </div>
+
+  <h1>💼 Absensi Karyawan Salon</h1>
+
+  <div class="form-container">
+    <input type="text" id="nama" placeholder="Masukkan nama karyawan" />
+    <button onclick="absen()">Hadir Sekarang</button>
+    <button onclick="downloadExcel()">Download Excel</button>
+
+    <div class="absen-list" id="absenList" style="display: none;">
+      <!-- Daftar absen muncul di sini -->
+    </div>
+  </div>
+
+  <footer>
+    @ 2025 Diora Hair Studio 💖
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
